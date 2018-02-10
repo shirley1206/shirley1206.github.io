@@ -1,0 +1,59 @@
+html {
+    margin: 0px 15px 50px 50px;
+    background-color: darkgrey;
+
+}
+header{
+    background: yellow;
+    text-align: right;
+    margin-top: -30px;
+    
+}
+body{
+    background-color: grey;
+    text-align: center;
+    
+}
+#content ul{
+    list-style-type: none;
+}
+#content h1{
+    text-align: left;
+}
+
+nav{
+    background-color: green;
+    margin-top: -30px;
+    
+}
+nav ul li{
+    background: black;
+    display: inline;
+    color:#fff;
+    
+}
+nav a{
+    background: black;
+    display: inline;
+    color:#fff;
+    text-decoration: none;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+
+}
+p{
+    text-align: left;
+}
+aside{
+    position: absolute;right: 30px;
+    background: white;
+
+}
+
+footer{
+    background-color: green;
+}
