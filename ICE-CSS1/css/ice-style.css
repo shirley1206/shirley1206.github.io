@@ -1,43 +1,40 @@
+*{
+    margin: 0px;
+}
 html {
-    margin: 0px 15px 50px 50px;
+    margin: 0px 60px 80px 60px;
     background-color: darkgrey;
 
 }
-header{
-    background: yellow;
-    text-align: right;
-    margin-top: -30px;
-    
-}
+
 body{
     background-color: grey;
     text-align: center;
     
 }
-#content ul{
+header{
+    background: yellow;
+    text-align: right;
+}
+#content li{
     list-style-type: none;
 }
 #content h1{
     text-align: left;
 }
 
-nav{
+nav ul{
     background-color: green;
-    margin-top: -30px;
-    
+    line-height: 200%;
 }
-nav ul li{
+nav li{
     background: black;
-    display: inline;
-    color:#fff;
-    
+    display: inline-block;
 }
 nav a{
-    background: black;
-    display: inline;
     color:#fff;
     text-decoration: none;
-    
+    text-align: center;
 }
 
 
@@ -49,11 +46,18 @@ p{
     text-align: left;
 }
 aside{
-    position: absolute;right: 30px;
-    background: white;
+    position: absolute;right:0px;
+    margin-right: 60px;
+    height: 503px;
+    background-color: white;
+    background-image:url("http://www.literarygenius.info/images/william-shakespeare.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom;
 
 }
 
 footer{
     background-color: green;
+    line-height: 200%;
 }
