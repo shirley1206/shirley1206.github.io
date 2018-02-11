@@ -46,14 +46,13 @@ p{
     text-align: left;
 }
 aside{
-    position: absolute;right:0px;
-    margin-right: 60px;
-    height: 503px;
+    float:right;
     background-color: white;
     background-image:url("http://www.literarygenius.info/images/william-shakespeare.jpg"); 
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: bottom;
+    background-position: 50% 60%;
+    height: auto;
 
 }
 
