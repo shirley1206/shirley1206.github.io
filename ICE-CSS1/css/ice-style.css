@@ -26,10 +26,13 @@ header{
 nav ul{
     background-color: green;
     line-height: 200%;
+
 }
 nav li{
     background: black;
     display: inline-block;
+    padding: 0px 20px;
+
 }
 nav a{
     color:#fff;
@@ -47,13 +50,14 @@ p{
 }
 aside{
     float:right;
+    padding-top: -10px;
     background-color: white;
     background-image:url("http://www.literarygenius.info/images/william-shakespeare.jpg"); 
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: 50% 60%;
-    height: auto;
-
+    width: auto;
+    height: 90vh;
+    background-position: center;
 }
 
 footer{
