@@ -15,6 +15,7 @@ text-align: center;
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	width: 98%;
 
 }
 
@@ -47,6 +48,7 @@ text-align: center;
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	width: 98%;
 
 }
 }
