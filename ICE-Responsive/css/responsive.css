@@ -1,0 +1,52 @@
+@media screen and (min-width:650px){
+.top-nav ul li{
+	display: inline-block;
+	
+}
+.top-nav ul li, .menu-icon{
+	border-top: 1px solid red; 
+}
+
+.top-nav ul {
+text-align: center;
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+}
+
+
+@media screen and (min-width: 1000px){
+
+.logo{
+	float: left;
+}	
+
+.top-nav ul li{
+	display: inline-block;
+	line-height: 280%;
+
+}
+.top-nav ul{
+	text-align: right;
+}
+.top-nav ul li, .menu-icon{
+	border-top: none;
+}
+.photo-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width:98%;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+}
