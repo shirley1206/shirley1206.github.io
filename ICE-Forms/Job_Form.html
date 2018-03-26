@@ -151,9 +151,9 @@
 				<option value="Pittsburgh">
 			</datalist></label><br>
 
-            <label>Expected Start Date: <input class="form-control" type="date" name="startdate"></label>label><br>
+            <label>Expected Start Date: <input class="form-control" type="date" name="startdate"></label><br>
 			
-			Expected Salary: $<input type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)"><br/><span id="salary"></span>
+                Expected Salary:$<br><input type="range" name="salary" min="40" max="200" step="5" value="100" onchange="updateSalary(this)" class="slider"><br/><span id="salary"></span>
 			<br>
 
 			<label>Personal Website/Portfolio: <input class="form-control" type="url" name="website" placeholder="www.mywebsite.com"></label><br>
@@ -172,6 +172,11 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-formhelpers.min.js"></script>
-	
+	<script>
+    var input=document.getElementsByClassName('slider') ;   
+    var output=document.getElementById('salary');
+    output.innerHTML="Value:"+input.value;
+    
+    </script> 
 	</body>
 </html>

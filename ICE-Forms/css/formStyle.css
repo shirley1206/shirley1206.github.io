@@ -19,8 +19,28 @@ form{
 	width: 75%;
     margin: auto;
 }
-
-
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 80%; /* Full-width */
+    height: 20px; /* Specified height */
+    background: #fff; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    border-radius: 30px;
+    
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 13px;
+    
 /* Style the list items*/
 /*form ol li {
 	background: #b9cf6a;
@@ -53,7 +73,7 @@ form{
 }
 /*"space"--decent, ">"--direct children */
 
-form > fieldset > legend:before { 
+form h4:before { 
 	content: "Step " counter(fieldsets) ": ";
 	counter-increment: fieldsets;
 }
