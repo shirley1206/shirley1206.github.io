@@ -1563,7 +1563,7 @@ Title
 Subtitle
 *******************/
 .subtitle {
-  color: #8d97ad;
+  color: #444c5e;
   line-height: 24px; }
 
 /******************* 
@@ -2294,10 +2294,10 @@ Breadcrumb
 .card-title {
   font-size: 18px; }
 
-.card-subtitle {
-  color: #8d97ad;
-  margin-bottom: 30px;
-  font-size: 14px; }
+.card-text {
+  color:#3e4555;
+ }
+/*
 
 .card-inverse .card-bodyquote .blockquote-footer,
 .card-inverse .card-link,
@@ -2336,10 +2336,12 @@ Breadcrumb
 .card-megna {
   background: #1dc8cd;
   border-color: #1dc8cd; }
+*/
 
 /*============================================================== 
  Cards page
  ============================================================== */
+/*
 .card-columns .card {
   margin-bottom: 20px; }
 
@@ -2391,6 +2393,7 @@ Breadcrumb
   .card-outline-primary .card-header {
     background: #316ce8;
     border-color: #316ce8; }
+*/
 
 /*******************
 Custom-select
@@ -2549,13 +2552,15 @@ common-innerpage-banner
 /*******************
 Footer 4
 *******************/
+
+.footer4{
+    color:#3e4555;
+}
 .footer4 .f4-bottom-bar {
   padding-top: 10px;
   margin-top: 20px; }
   .footer4 .f4-bottom-bar a {
-    color: #8d97ad; }
-    .footer4 .f4-bottom-bar a:hover {
-      color: #188ef4; }
+    color: #3e4555; }
 
 .footer4 .round-social.light a {
   width: 34px;
