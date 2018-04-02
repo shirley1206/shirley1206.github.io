@@ -151,6 +151,19 @@ html body .db {
     .h1-nav .navbar-nav .nav-item:last-child {
       margin-right: 0px; }
 
+/*******************
+Portfolio 
+*******************/
+.img-ho {
+  overflow: hidden; }
+  .img-ho img {
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in; }
+    .img-ho img:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
 
 /*******************
 Blockquote
