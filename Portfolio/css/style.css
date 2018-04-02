@@ -1791,6 +1791,7 @@ position
 /*************/
 /* Dropdown*/
 /*************/
+/*
 .navbar-nav .dropdown-toggle::after {
   display: none; }
 
@@ -1830,10 +1831,12 @@ position
   .mega-dropdown h6 {
     margin: 15px 0;
     font-size: 15px; }
+*/
 
 /*************/
 /* General Listing*/
 /*************/
+/*
 .general-listing {
   padding: 0px;
   margin: 0px; }
@@ -1864,10 +1867,12 @@ position
     display: inline-block; }
   .general-listing.only-li li {
     padding: 5px 0; }
+*/
 
 /*************/
 /* form dark*/
 /*************/
+/*
 .form-control-dark {
   background: rgba(120, 130, 140, 0.13);
   color: #ffffff;
@@ -1875,6 +1880,7 @@ position
   .form-control-dark:focus {
     background: rgba(120, 130, 140, 0.13);
     color: #ffffff; }
+*/
 
 /*************/
 /* social-round */
@@ -2717,5 +2723,3 @@ File: scss
     padding: 40px; }
   .dropdown-submenu > .dropdown-menu.show {
     display: block; } }
-
-
