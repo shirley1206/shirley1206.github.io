@@ -111,6 +111,9 @@ h6 {
       padding: 12px 0px;
       color: #3e4555;
       font-weight: 400; }
+    .h1-nav .navbar-nav .nav-item .current{
+        color:cadetblue;
+        }
       .h1-nav .navbar-nav .nav-item .nav-link:hover {
         color: #1a5b98; }
     .h1-nav .navbar-nav .nav-item:last-child {
@@ -396,7 +399,6 @@ card
  }
 
 
-
 /*******************
 Footer 4
 *******************/
@@ -414,6 +416,7 @@ Footer 4
   line-height: 34px; }
   .footer4 .round-social.light a:hover {
     background: #188ef4; }
+
 
 /*******************
 Modal in center
