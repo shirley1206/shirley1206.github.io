@@ -7,8 +7,6 @@ img{
     padding: 5%;
     box-sizing: border-box;
     width:50%;
-    margin:0;
-   
 }
 
 .side{
@@ -31,9 +29,9 @@ h1{
 }
 
 .active{
-    margin-left: 0 auto;
-    width: 50%;
+    margin: auto;
     display: block;
+    width: 50%;
 }
 
 

@@ -15,7 +15,7 @@
       <div class="wrapper">
         <div><img alt="photo1" src="images/examPic.JPG" id="ph1" class="side">
           </div>
-        <div><img alt="photo2" src="images/UMSI-logo.jpg" id="ph2" class="side"></div>
+        <div><img alt="photo2" src="images/UMSI-logo.jpg" id="ph2"></div>
       </div>
         <button onclick="func1()" id="bt1">Hide image</button>
         <button onclick="func2()" id="bt2">show image</button>  
@@ -42,9 +42,10 @@
             $(document).ready(function(){
               $('#bt1').click(function(){
               $('#ph1').hide();
-              $("#ph2").addClass("active");
-                $("#ph1").removeClass("side");
-                $("#ph2").removeClass("side");
+            $("#ph1").removeClass("side");
+            $("#ph2").addClass("active");
+                  
+                  
                   
      });
   });
@@ -52,9 +53,7 @@
           $(document).ready(function(){
             $('#bt2').click(function () {
             $('#ph1').show();
-            $("#ph2").removeClass("active");
             $("#ph1").addClass("side");
-            $("#ph2").addClass("side");
                 
        });
     });
