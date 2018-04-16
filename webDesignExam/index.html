@@ -12,9 +12,10 @@
       <div> 
             <h1>Shirley Hsu</h1> 
       </div>
-      <div>
-        <img alt="photo1" src="images/examPic.JPG" id="ph1">
-        <img alt="photo2" src="images/UMSI-logo.jpg" id="ph2">
+      <div class="wrapper">
+        <div><img alt="photo1" src="images/examPic.JPG" id="ph1" class="side">
+          </div>
+        <div><img alt="photo2" src="images/UMSI-logo.jpg" id="ph2" class="side"></div>
       </div>
         <button onclick="func1()" id="bt1">Hide image</button>
         <button onclick="func2()" id="bt2">show image</button>  
@@ -22,35 +23,39 @@
       <script>
 //            function func1(){
 //                var x=document.getElementById("ph1");
-//                if (x.style.display=="none"){
-//                    x.style.display="inline-block";
-//                }else{
-//                    x.style.display="none";
-//                }
+//                var y=document.getElementById("ph2");
+//                x.style.display="none";
+//                y.style.display="block";
+//                y.style.margin="auto";
+//                
 //            }
-////            function func2(){
-////                var y=document.getElementById("ph2");
-////                if (y.style.margin!=="auto"){
-////                    y.style.display="block";
-////                    y.style.margin="auto";
-////                }else{
-////                    y.style.display="inline-block";
-////                    y.style.margin=0;
-////                }
-////            }
+//            function func2(){
+//                var x=document.getElementById("ph1");
+//                var y=document.getElementById("ph2");
+//                x.style.display="inline-block";
+//                y.style.display="inline-block";
+//                y.style.margin=0;
+//                
+//            }
     
 //jquery
             $(document).ready(function(){
               $('#bt1').click(function(){
               $('#ph1').hide();
               $("#ph2").addClass("active");
+                $("#ph1").removeClass("side");
+                $("#ph2").removeClass("side");
+                  
      });
   });
           
           $(document).ready(function(){
             $('#bt2').click(function () {
             $('#ph1').show();
-            $("#ph2").removeClass("active","addOrRemove");
+            $("#ph2").removeClass("active");
+            $("#ph1").addClass("side");
+            $("#ph2").addClass("side");
+                
        });
     });
                 

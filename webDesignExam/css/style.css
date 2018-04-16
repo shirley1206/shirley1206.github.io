@@ -3,12 +3,18 @@ body{
     background-image: url("../images/sun-pattern.png")
 }
 img{
-    display: inline-block;
     border: 5px solid blue;
     padding: 5%;
     box-sizing: border-box;
     width:50%;
+    margin:0;
+   
 }
+
+.side{
+    float: left;
+} 
+
 h1{
     display: block;
 }
@@ -25,25 +31,9 @@ h1{
 }
 
 .active{
-    margin: auto;
+    margin-left: 0 auto;
+    width: 50%;
     display: block;
 }
 
 
-/*
-@media screen and (min-width:650px) and (max-width: 1000px){
-    
-    h1{
-        color: cadetblue;
-        font-size: 23px;
-    }
-}
-
-
-@media screen and (max-width:650px) {
-    
-    h1{
-        color: indianred;
-        font-size: 18px;
-    }
-}*/
