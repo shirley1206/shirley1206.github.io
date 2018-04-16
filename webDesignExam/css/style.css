@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-image: url("../images/sun-pattern.png")
 }
 img{
     display: inline-block;
