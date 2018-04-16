@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Shirley Hsu exam2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+      <div> 
+            <h1>Shirley Hsu</h1> 
+      </div>
+      <div>
+        <img alt="photo1" src="images/examPic.JPG" id="ph1">
+        <img alt="photo2" src="images/UMSI-logo.jpg" id="ph2">
+      </div>
+        <button onclick="func1()" id="bt1">Hide image</button>
+        <button onclick="func2()" id="bt2">show image</button>  
+    
+      <script>
+//            function func1(){
+//                var x=document.getElementById("ph1");
+//                if (x.style.display=="none"){
+//                    x.style.display="inline-block";
+//                }else{
+//                    x.style.display="none";
+//                }
+//            }
+////            function func2(){
+////                var y=document.getElementById("ph2");
+////                if (y.style.margin!=="auto"){
+////                    y.style.display="block";
+////                    y.style.margin="auto";
+////                }else{
+////                    y.style.display="inline-block";
+////                    y.style.margin=0;
+////                }
+////            }
+    
+//jquery
+            $(document).ready(function(){
+              $('#bt1').click(function(){
+              $('#ph1').hide();
+              $("#ph2").addClass("active");
+     });
+  });
+          
+          $(document).ready(function(){
+            $('#bt2').click(function () {
+            $('#ph1').show();
+            $("#ph2").removeClass("active","addOrRemove");
+       });
+    });
+                
+          
+          
+          
+      </script>
+  </body>
+
+</html>
